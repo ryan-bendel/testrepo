@@ -3,12 +3,7 @@
 name: "Chromatic"
 
 on:
-  pull_request:
-    paths:
-      - libs/angular/**
-      - libs/icons/**
-      - libs/styles/**
-      - libs/tokens/**
+  pull_request
 
 jobs:
   chromatic:
